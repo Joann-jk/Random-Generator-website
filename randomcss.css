@@ -1,0 +1,91 @@
+body {
+    
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #000000;
+    color:whitesmoke;
+    font-family: cursive;
+}
+
+header {
+    background-color: #000000;
+    padding: 1em;
+    text-align: center;
+    font-size: 1.5em;
+    border-bottom: 1px solid #000000;
+    color:whitesmoke;
+    font-family:cursive;
+}
+
+main {
+    display: flex;
+    flex: 1;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    /* Add more styles as needed for the main content area */
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 250px; /* Adjust width as needed */
+    padding: 30px;
+    border-left: 3px dotted #000000;
+    border-left-color: rgb(0, 0, 0);
+    height: 100%; /* Full height of the viewport */
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+    background-color: #000000; /* Background color of the sidebar */
+   
+}
+
+.sidebar button {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 1em;
+    background-color: #fbd70c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family:cursive;
+}
+
+.sidebar button:hover {
+    background-color: #050b1109;
+}
+
+.reveal-btn {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 1em;
+    color: #007bff;
+    text-decoration: underline;
+    cursor: pointer;
+    border: none;
+    background: none;
+    text-align: left;
+    transition: color 0.3s ease;
+    font-family:cursive;
+    background-color: #000000;
+}
+
+.reveal:hover {
+
+    color: #0056b3;
+    text-decoration: none;
+}
+img {
+    width: 40%; 
+    height: 50%; 
+    object-fit: contain; 
+    display: block; 
+    border:10px solid #f9f9f9;
+    
+}
