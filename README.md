@@ -15,5 +15,4 @@ the application will display the corresponding output.
 - HTML
 - CSS
 - JavaScript
-  ## WEBSITE LINK
-  https://joann-jk.github.io/Random-Generator-website/random.html
+
